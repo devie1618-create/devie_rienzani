@@ -107,11 +107,7 @@ if st.sidebar.button("Prediksi Jenis Buah"):
 # MAIN PAGE
 # --------------------------------------------------
 st.title("🍓 Analisis dan Klasifikasi Jenis Buah by Machine Learning🍎")
-st.image(
-    "gambar_buah_baru.jpg",
-    caption="Klasifikasi Buah Menggunakan Machine Learning",
-    use_container_width=True
-)
+
 st.markdown(
     "Aplikasi ini memprediksi **jenis buah** berdasarkan ukuran, berat, harga, warna, bentuk, dan rasa."
 )
